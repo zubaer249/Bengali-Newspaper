@@ -9,8 +9,8 @@
 
 ## Faculty Name: Md. Musfique Anwar (mma1)
 ### Course: Cse 327
-#### Group: 4
-#### Section: 5
+#### Group: 5
+#### Section: 4
 #### Semester: Summer 2021
 
 ###Contributors
