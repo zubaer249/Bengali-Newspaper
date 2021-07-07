@@ -1,0 +1,80 @@
+SequencesChapter 3
+External Interface Requirements 
+
+
+3.1  Functional Requirements
+
+3.1.1 Register
+
+The following expanded use case shows the response sequences between the actor actions and the system responses.
+•	Use Case Name: Register
+•	Actor: User
+•	Type: Primary
+•	Overview: Register / Create new account in the website.
+
+Exception:
+1) The user fill unformatted information
+2) Server is down so form did not reach to database server
+	
+3.1.2 Login
+Stimulus/ Response Sequences
+The following expanded use case shows the response sequences between the actor actions and the system responses.
+•	Use Case Name: Login
+•	Actor: User
+•	Type: Secondary
+•	Overview: Allows user to log in to the website to access the synced bookmarks
+
+Exception:
+1) The user will unformatted information
+2) Server is down so form did not reach to database server
+
+3.1.3 Voice Search
+Stimulus/ Response Sequences
+The following expanded use case shows the response sequences between the actor actions and the system responses.
+•	Use Case Name: Voice Search
+•	Actor: User
+•	Type: Primary
+•Overview: Allows user to search their deisred news via voice
+
+Exception:
+1) User is not connected to the internet so system won’t be able to connect to the API
+2) User is not speaking native Bangla / English which our targeted API won’t recognize
+3) User is not speaking anything related to news so no match will come
+3.1.4 Listen to Audio
+Stimulus/ Response Sequences
+The following expanded use case shows the response sequences between the actor actions and the system responses.
+•	Use Case Name: Listen to Audio
+•	Actor: User
+•	Type: Primary
+•	Overview: Allows user to listen to news article
+
+Exception:
+
+1) User is not connected to the internet so system cannot contact the API
+
+3.1.5 Check News Source
+Stimulus/ Response Sequences
+
+The following expanded use case shows the response sequences between the actor actions and the system responses.
+•	Use Case Name: Check Source
+•	Actor: User
+•	Type: Primary
+•	Overview: Allows user to check the source of news article
+
+Exception:
+1) System cannot connect to the database
+2) User has no internet connection to receive the response
+
+3.1.6 Logout
+Stimulus/ Response Sequences
+
+The following expanded use case shows the response sequences between the actor actions and the system responses.
+•	Use Case Name: Logout
+•	Actor: User
+•	Type: Secondary
+•	Overview: Allows user to logout
+
+Exception :
+1) Server is down so system can not remove bookmarks
+2) If there is no internet connection user can not log out successfully
+
